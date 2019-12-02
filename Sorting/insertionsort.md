@@ -13,6 +13,7 @@ We start from the second item in our array as the first item has nothing to the 
 потому что элемент до 1-го элемента будет нашей отсортированной последовательностью.
 Если же элементов меньше 10 то данный алгоритм является лучшим. 
 
+
 ```js
 let array = [2, 6, 1, 3, 13, 4];
 
@@ -22,7 +23,7 @@ const insertionSort = array => {
     for (let index = 0; index < count; index++) { 
         // взял элемент
         let getItem = array[ index ];
-        // счетчие для нового цикла
+        // счетчик для нового цикла
         let whileCount = index - 1;
         // пока не дойдем до нуля исполнем цикл
 
