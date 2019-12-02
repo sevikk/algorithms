@@ -1,17 +1,20 @@
 ## Bubble sort
 
-youtube video [bubble sort](https://www.youtube.com/watch?v=Cq7SMsQBEUw)
+Youtube video: [bubble sort](https://www.youtube.com/watch?v=Cq7SMsQBEUw)
 
 Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order (ascending or descending arrangement). The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.
+
 -----------------------------------------------------------------------------
 
 Сложность алгоритма: O(n^{2})
+
 -----------------------------------------------------------------------------
 Алгоритм состоит из повторяющихся проходов по сортируемому массиву. 
 За каждый проход элементы последовательно сравниваются попарно и, если порядок 
 в паре неверный, выполняется обмен элементов. Проходы по массиву повторяются 
 N-1 раз или до тех пор, пока на очередном проходе не окажется, 
 что обмены больше не нужны, что означает — массив отсортирован
+
 ---------------------------------------------------------------------------
 на каждом следующем проходе число обрабатываемых элементов уменьшается на 1 
 и нет необходимости «обходить» весь массив от начала до конца каждый раз.
