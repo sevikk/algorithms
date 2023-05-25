@@ -7,7 +7,7 @@ Given a sorted array A (sorted in ascending order), having N integers, find if t
 
 -----------------------------------------------------------------------------
 
-Time Complexity:  O(n log n) (As sort function is used)
+Time Complexity:  O(n log n) (As sort function is used).
 Auxiliary Space: O(1), since no extra space has been taken.
 
 -----------------------------------------------------------------------------
