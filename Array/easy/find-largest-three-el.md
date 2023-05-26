@@ -1,3 +1,8 @@
+Time Complexity: O(n) 
+Auxiliary Space: O(1)
+
+--------------------------------------------
+
 ```js
 // Javascript program for find the largest
 // three elements in an array
