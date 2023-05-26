@@ -15,7 +15,7 @@ function leftRotate(arr, n, k){
  
     // Prints the rotated array from start position
     for (let i = 0; i < n; i++)
-        temp[i] = arr[(k + i) % n];
+        temp[i] = arr[(mod + i) % n];
  
     return temp;
 }
