@@ -12,7 +12,7 @@ console.log(newArray)
 ```
 
 Time Complexity: O(n log n).
-Auxiliary Space: O(1)
+Auxiliary Space: O(N)
 
 
 ------------------------------------------
