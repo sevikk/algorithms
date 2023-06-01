@@ -146,7 +146,6 @@ let key = 30;
 
 n = deleteElement(arr, n, key);
 for (i=0; i<n; i++)
-          console.log(arr[i]+" ");
-      
+          console.log(arr[i]+" "); 
      
 ```
