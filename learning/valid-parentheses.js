@@ -6,8 +6,6 @@ function isValidParenthesess(s) {
     let stack = [];
 
     for (let i = 0; i < s.length; i++) {
-        console.log(stack)
-        // console.log(stack.pop())
         if (s[i] == '{') {
             stack.push('}');
         } else if (s[i] == '(') {
